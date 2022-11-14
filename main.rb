@@ -1,3 +1,9 @@
+require_relative './Game.rb'
+
+g = Game.new
+g.start
+
+
 # 1. The Game (class) has two Players (class): "Player One", "Player Two" x
 
 # 2. Each Player has 3 lives x
@@ -12,15 +18,15 @@
 
 # 7. If Player 1 answers (Game.answer_question) question incorrectly, game says "Seriously? No!" and Player.lives -1 x
 
-# 8. game says "-- NEW TURN --"
+# 8. game says "-- NEW TURN --" x
 
-# 9. Repeat steps 4-8 for Player 2
+# 9. Repeat steps 4-8 for Player 2 x
 
-# 10. When Player 1 or Player 2's lives (Player.lives) run out, game says "[Winning Player] won with a score of Player.lives / 3"
+# 10. When Player 1 or Player 2's lives (Player.lives) run out, game says "[Winning Player] won with a score of Player.lives / 3" x
 
-# 11. game says "Game Over"
+# 11. game says "Game Over" x
 
-# 12. game ends
+# 12. game ends x
 
 
 
