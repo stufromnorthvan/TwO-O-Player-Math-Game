@@ -57,5 +57,5 @@ class Game
   end
 end
 
-g = Game.new
-g.start
+# g = Game.new
+# g.start
